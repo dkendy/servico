@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaCirculo", "src\AreaCirculo\AreaCirculo.csproj", "{71C3D1A8-CFE3-4F62-803F-4F54337F9696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A2CF0B85-DD9A-4A96-A635-C9524A7FA631}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestArea", "src\Tests\TestArea\TestArea.csproj", "{3EC15726-D2DD-45C3-97FA-05BA47A79FEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppService", "src\AppService\AppService.csproj", "{0E94E447-2470-4CB5-A859-AC2D6C38E467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8E2AE50F-08D4-4B8F-AA62-A51CFF006DE9}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		k8s\api.yaml = k8s\api.yaml
+		Jenkinsfile = Jenkinsfile
+		k8s\services.yaml = k8s\services.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71C3D1A8-CFE3-4F62-803F-4F54337F9696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C3D1A8-CFE3-4F62-803F-4F54337F9696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C3D1A8-CFE3-4F62-803F-4F54337F9696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C3D1A8-CFE3-4F62-803F-4F54337F9696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC15726-D2DD-45C3-97FA-05BA47A79FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC15726-D2DD-45C3-97FA-05BA47A79FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC15726-D2DD-45C3-97FA-05BA47A79FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC15726-D2DD-45C3-97FA-05BA47A79FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E94E447-2470-4CB5-A859-AC2D6C38E467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E94E447-2470-4CB5-A859-AC2D6C38E467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E94E447-2470-4CB5-A859-AC2D6C38E467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E94E447-2470-4CB5-A859-AC2D6C38E467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3EC15726-D2DD-45C3-97FA-05BA47A79FEF} = {A2CF0B85-DD9A-4A96-A635-C9524A7FA631}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AF563D6-0476-478B-9DD5-5561876B0857}
+	EndGlobalSection
+EndGlobal
