@@ -32,7 +32,7 @@ namespace AreaCirculo
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v8", new OpenApiInfo { Title = "Area do Circulo", Version = "v8" });
+                c.SwaggerDoc("v9", new OpenApiInfo { Title = "Area do Circulo", Version = "v9" });
             });
         }
 
@@ -49,7 +49,7 @@ namespace AreaCirculo
 
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v8/swagger.json", "Area do Circulo");
+                c.SwaggerEndpoint("/swagger/v9/swagger.json", "Area do Circulo");
             });
 
             app.UseHttpsRedirection();
